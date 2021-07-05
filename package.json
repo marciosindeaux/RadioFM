@@ -1,0 +1,26 @@
+{
+  "name": "RadioFM",
+  "version": "1.0.0",
+  "description": "Botzinho de musica no discord",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marciosindeaux/RadioFM.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marciosindeaux/RadioFM/issues"
+  },
+  "homepage": "https://github.com/marciosindeaux/RadioFM#readme",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "dotenv": "^10.0.0",
+    "fs": "0.0.1-security",
+    "ytdl-core": "^4.8.3"
+  }
+}
